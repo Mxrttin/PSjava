@@ -1,0 +1,29 @@
+body{
+    background-image: url(../img/fondoN.png);
+    position:relative;
+}
+
+.table__producto{
+    display: flex;
+}
+
+.table__producto> img{
+    width: 7rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.total{
+    background-color: white;
+    padding: 1rem;
+}

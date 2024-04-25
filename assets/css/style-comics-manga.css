@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/fondoN.png);    
+  
+}
+
+header{
+    z-index: 100;
+}
+
+
+.card{
+    width: 20rem;
+    transition: ease-in.3s
+}
+
+.card:hover{
+    width: 22rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
